@@ -7,10 +7,4 @@ const people = [
 
 export const greeting = (firstname: string, lastname: string) => {
   console.log(`Hello ${firstname} ${lastname}`);
-}
-
-export const greetTheGang = () => {
-  people.forEach((person) => {
-    greeting(person.firstname, person.lastname);
-  });
-}
+};
